@@ -3,9 +3,9 @@ import operator
 import random
 
 
-#Empty or define the beginning of an agents list, remember lists are immutable, this means they cannot be changed
+#Below code can be used to empty or define the beginning of an agents list, remember lists are immutable, this means they cannot be changed
 agents = []     
-#This is a variable and will store whatever value I put in
+#Below is a variable and will store whatever value I put in
 num_of_agents = 10
 #This will store the number of times the process will be repeated
 num_of_iterations = 100          
