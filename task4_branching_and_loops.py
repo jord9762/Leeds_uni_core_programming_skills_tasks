@@ -14,10 +14,11 @@ up to 10 times from 0-9 as this is the number of agents specified"""
 for i in range(num_of_agents):
     agents.append([random.randint(0,100),random.randint(0,100)])
     print (agents)
-"""Running all of the above code in one will show the process of this"""
 
-    
-    
+
+ """The code below is saying if random boolean is less than 0.5 add 1 and if greater than 0.5
+subtract 1, this will be done for the number of iterations specified which in this case is 
+100"""      
 for j in range (num_of_iterations):
             for i in range(num_of_agents):
                   if random.random() < 0.5:
@@ -29,9 +30,7 @@ for j in range (num_of_iterations):
                    agents[i][1] = (agents[i][1] + 1) % 100
                   else:
                    agents[i][1] = (agents[i][1] - 1) % 100
-"""The above code is saying random boolean is less than 1 add 1 and if greater than 0.5
-subtract 1, this will be done for the number of iterations specified which in this case is 
-100"""
+
 
 
 print(max(agents))
@@ -40,7 +39,7 @@ print(max(agents))
 print(max(agents, key=operator.itemgetter(1)))
 #finds the max agents based upon the first integer of the co-ordinates
 
-
+#maps all points as for i in range number of agents is used, remember [i][0] is the same as the y location and [i][1] is the x
 for i in range(num_of_agents):
     matplotlib.pyplot.scatter(agents[i][1], agents[i][0])
     matplotlib.pyplot.scatter(agents[i][1], agents[i][0])
@@ -56,5 +55,5 @@ co-ordinates) and position 1 (Our second value in our pair of co-ordinates), plo
 #END OF CODE!!!!!
 
 
-"""Final pointers:
+"""Final pointers:find out about what torus means 
   
