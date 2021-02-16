@@ -32,12 +32,12 @@ for j in range (num_of_iterations):
                    agents[i][1] = (agents[i][1] - 1) % 100
 
 
-
+#finds the max agents based upon the first integer of the co-ordinates
 print(max(agents))
-#finds the max agents based upon the first integer of the co-ordinates
 
-print(max(agents, key=operator.itemgetter(1)))
 #finds the max agents based upon the first integer of the co-ordinates
+print(max(agents, key=operator.itemgetter(1)))
+
 
 #maps all points as for i in range number of agents is used, remember [i][0] is the same as the y location and [i][1] is the x
 for i in range(num_of_agents):
