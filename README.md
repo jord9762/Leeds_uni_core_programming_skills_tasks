@@ -1,5 +1,5 @@
 # Leeds_uni_core_programming_skills_tasks
-[Index](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task2_agent_based_modelling_attempt_solo.py)
+[Find out more about me](https://jord9762.github.io/jordy9762.github.io/index.html)
 [Task 2 Agent based modelling](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task2_agent_based_modelling_attempt_solo.py)
 <br/>
 [Task 3 Agent based modelling](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task3_containers.py)
