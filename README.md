@@ -7,9 +7,9 @@
 <br/>
 [Task 5 building tools](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task5_building_tools.py)
 <br/>
-[Task 6](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task_6_Agents!.py)
+[Task 6 Agents!](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task_6_Agents!.py)
 <br/>
-[Task 6](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task2_agent_based_modelling_attempt_solo.py)
+[Task 6 agent framework](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task_6_agentframework.py)
 <br/>
 [Task 8](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task2_agent_based_modelling_attempt_solo.py)
 
