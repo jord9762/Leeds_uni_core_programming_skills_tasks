@@ -11,11 +11,11 @@
 <br/>
 [Task 6 Agents!](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task_6_Agents!.py)
 <br/>
-[Task 6 agent framework](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task_6_agentframework.py)
+[Task 6 agent framework](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/agentframework.py)
 <br/>
 [Task 7 I/O](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/edit/main/IO.py)
 <br/>
-[Task 7 agent framework](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task_7_agentframework.py)
+[Task 7 agent framework](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/agentframework.py)
 <br/>
 [Task 7 model.py](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/blob/main/Task2_agent_based_modelling_attempt_solo.py)
 
