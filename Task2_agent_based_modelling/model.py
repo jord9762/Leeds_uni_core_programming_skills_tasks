@@ -1,54 +1,50 @@
-import random 
-#importing the random package
-y0 = 67
-x0 = 55
-#assigning 50 to both of the above variables 
+#imports the random module
+import random
+#Make y0 and x0 = 50
+y0 = 50
+x0 = 50
+# Move y0 randomly
 if random.random() < 0.5:
     y0 += 1
 else:
     y0 -= 1
-#basically either subtracting one or adding one at random, adding if less than 0.5 
-#subtracting if greater than 0.5
+# Move x0 randomly
 if random.random() < 0.5:
     x0 += 1
 else:
     x0 -= 1
-#does the same as previous
-print(y0, x0)
-#prints
-
-
-
-y1 = 0
-x1 = 0
-
+# Make y1 and x1 = 50    
+y1 = 50
+x1 = 50
+# Move y1 randomly
 if random.random() < 0.5:
     y1 += 1
 else:
     y1 -= 1
-
+# Move x1 randomly
 if random.random() < 0.5:
     x1 += 1
 else:
     x1 -= 1
+# print answer
+print(y0, x0, y1, x1)
 
-print(y1, x1)
-
-answer = (((y0 - y1)**2) + ((x0 - x1)**2))**0.5 
-print (answer)
-
-
-
-y0 = random.randint(0,100)
-x0 = random.randint(0,100)
-y1 = random.randint(0,100)
-x1 = random.randint(0,100)
-
-#alternate way the distance could have been calculated. 
-y_diff = (y0 - y1)
-y_diffsq = y_diff * y_diff
-x_diff = (x0 - x1)
-x_diffsq = x_diff * x_diff
-sum = y_diffsq + x_diffsq
-answer = sum**0.5
+x0= random.randint(0,99)
+y0= random.randint(0,99)
+x1= random.randint(0,99)
+y1= random.randint(0,99)
+#sets a random integer for x0.......
+#the below code can be run with from line 32 down to get random integers
+x_diffe = x0-x1
+y_diffe = y0-y1
+#creates a variable which will store the difference between x0-x1 and y0-y1
+x_square = x_diffe**2
+y_square = y_diffe**2
+#creates squared variables 
+xy_added = x_square + y_square
+answer = xy_added**0.5
 print(answer)
+#calculates and prints euclidian distance between co-rdinates
+
+
+
