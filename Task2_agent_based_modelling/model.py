@@ -19,8 +19,8 @@ print(y0, x0)
 
 
 
-y1 = 6
-x1 = 85
+y1 = 0
+x1 = 0
 
 if random.random() < 0.5:
     y1 += 1
@@ -37,28 +37,14 @@ print(y1, x1)
 answer = (((y0 - y1)**2) + ((x0 - x1)**2))**0.5 
 print (answer)
 
-"""So, how did you do with working out the distance?
 
-Here's one solution:
-
-answer = (((y0 - y1)**2) + ((x0 - x1)**2))**0.5
-print(answer)
-
-But sometimes it is more sensible to break complicated equations down into parts:
-
-y_diff = (y0 - y1)
-y_diffsq = y_diff * y_diff
-x_diff = (x0 - x1)
-x_diffsq = x_diff * x_diff
-sum = y_diffsq + x_diffsq
-answer = sum**0.5
-print(answer)"""
 
 y0 = random.randint(0,100)
 x0 = random.randint(0,100)
 y1 = random.randint(0,100)
 x1 = random.randint(0,100)
 
+#alternate way the distance could have been calculated. 
 y_diff = (y0 - y1)
 y_diffsq = y_diff * y_diff
 x_diff = (x0 - x1)
@@ -66,4 +52,3 @@ x_diffsq = x_diff * x_diff
 sum = y_diffsq + x_diffsq
 answer = sum**0.5
 print(answer)
-#alternate way the distance could have been calculated. 
