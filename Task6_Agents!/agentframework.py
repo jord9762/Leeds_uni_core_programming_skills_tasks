@@ -1,22 +1,22 @@
 import random
 
-
+"""https://www.youtube.com/watch?v=oE_dWWWqxQ0 init behaves like a contructor for the class agent. """
 class agent:
     def __init__(self):
         self._y = random.randint(0, 99)
         self._x = random.randint(0, 99)
 
     # Getters and Setters for x and y properties
-    @property
+   
     def get_x(self):
         """getter for x."""
         return self._x
-        property(fget=self._x) 
+      
     
     @get_x.setter
     def set_x(self, value):
         """setter for X."""
-        self._x = value
+      
         
     @property
     def get_y(self):
@@ -26,7 +26,7 @@ class agent:
     @get_y.setter
     def set_y(self, value):
         """setter for Y."""
-        self._y = value
+      
        
      
 
@@ -41,11 +41,9 @@ class agent:
         else:
             self._x = (self._x - 1) % 100
 
-    value=property(get_x,set_x,get_y,set_y)
-    print(value)
+   
     
- #https://www.youtube.com/watch?v=AEOuYv699K4&t=26s this assisted with understanding property, although still 
-#unsure on the functionality, will revisit later.   
+
 
 
             
