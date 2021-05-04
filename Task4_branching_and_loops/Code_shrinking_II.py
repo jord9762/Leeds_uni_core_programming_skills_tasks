@@ -17,7 +17,9 @@ for i in range(num_of_agents):
 """Running all of the above code in one will show the process of this"""
 
     
-    
+  """The code below means if random boolean is less than 1 add 1 and if greater than 0.5
+subtract 1, this will be done for the number of iterations specified which in this case is 
+100. Using the modulous symbol (return the remainder) means the value will be set to 0 if the calculation is greater than 99. This will prevent the Index out range error. """  
 for j in range (num_of_iterations):
             for i in range(num_of_agents):
                   if random.random() < 0.5:
@@ -29,9 +31,7 @@ for j in range (num_of_iterations):
                    agents[i][1] = (agents[i][1] + 1) % 100
                   else:
                    agents[i][1] = (agents[i][1] - 1) % 100
-"""The above code is saying random boolean is less than 1 add 1 and if greater than 0.5
-subtract 1, this will be done for the number of iterations specified which in this case is 
-100"""
+
 
 
 print(max(agents))
