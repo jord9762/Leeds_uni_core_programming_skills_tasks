@@ -20,6 +20,10 @@ for i in range(num_of_agents):
 for j in range(num_of_iterations):
     for i in range(num_of_agents):
         agents[i].move()
+        a = agents[i]
+        print( a.get_y(), a.get_x()) #prints getter and setter for agents in agent framework, I did this to help users understand 
+        #the process occuring throughout the code. The print shows the full 100 iterations for the 10 agents. 
+        
         
 
 matplotlib.pyplot.xlim(0, 99)
@@ -31,7 +35,3 @@ matplotlib.pyplot.show()
 for agents_row_a in agents:
     for agents_row_b in agents:
         distance = distance_between(agents_row_a, agents_row_b)
-        
-    
-        
-print (agents)
