@@ -5,16 +5,20 @@
 <br/>
 [Task 2 code shrinking final](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task2_code_shrinking)
 <br/>
-[Task 3 Containers](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task3_containers)
+[Task 3 containers](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task3_containers)
 <br/>
 [Task 4 branching and loops](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task4_branching_and_loops)
 <br/>
 [Task 5 building tools](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task5_building_tools)
 <br/>
-[Task 6 Agents!](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task6_Agents!)
+[Task 6 agents!](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task6_Agents!)
 <br/>
 [Task 7 I/O's](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
 <br/>
-
+[Task 8 I/O's](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
+<br/>
+[Task 9 animation](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
+<br/>
+[Task 10 GUI's](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
 
 
