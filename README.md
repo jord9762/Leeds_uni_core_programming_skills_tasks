@@ -15,10 +15,10 @@
 <br/>
 [Task 7 I/O's](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
 <br/>
-[Task 8 I/O's](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
+[Task 8 communicating](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
 <br/>
 [Task 9 animation](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
 <br/>
 [Task 10 GUI's](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
-
-
+<br/>
+[Final model with GUI](https://github.com/jord9762/Leeds_uni_core_programming_skills_tasks/tree/main/Task7_IO's)
