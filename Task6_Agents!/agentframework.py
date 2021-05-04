@@ -35,15 +35,13 @@ class agent:
      
 
     def move(self):
+        """
+        Moves the x and y variables or agents using the random library features
+        -------
+        None.
+        """
         if random.random() < 0.5:
             self._y = (self._y + 1) % 100
-        else:
-            self._y = (self._y - 1) % 100
-
-        if random.random() < 0.5:
-            self._x = (self._x + 1) % 100
-        else:
-            self._x = (self._x - 1) % 100
         else:
             self._y = (self._y - 1) % 100
 
