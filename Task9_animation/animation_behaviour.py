@@ -2,9 +2,8 @@ import random
 import operator
 import matplotlib.pyplot
 import matplotlib.animation 
-import time
 
-start = time.clock()
+
 num_of_agents = 10
 num_of_iterations = 100
 agents = []
@@ -62,6 +61,5 @@ animation = matplotlib.animation.FuncAnimation(fig, update, frames=gen_function,
 
 
 matplotlib.pyplot.show()
-end = time.clock()
-print("time = " + str(end - start))
 
+ 

@@ -4,7 +4,8 @@ import matplotlib.pyplot
 import csv
 import agentframework
 import matplotlib.animation 
-
+"""Note to visualise the code in this file the code %matplotlib qt must be inputted in to the ipython console first. Or alternatively
+the code can be ran in the command prompt"""
 environment = []
 agents = []
 num_of_agents = 10
@@ -59,11 +60,11 @@ def update(frame_number):
 means starting at 0 and carry_on while a =<10 leads to 10 iterations being called as the anmation will carry
 on"""
 def gen_function(b = [0]):
-    a = 0
+    store = 0
     global carry_on #Not actually needed as we're not assigning, but clearer
-    while (a < 10) & (carry_on) :
-        yield a			# Returns control and waits next call.
-        a = a + 1
+    while (store < 10) & (carry_on) :
+        yield store			# Returns control and waits next call.
+        store = store + 1
 
 animation = matplotlib.animation.FuncAnimation(fig, update, frames=gen_function, repeat=False)
 
@@ -72,15 +73,15 @@ matplotlib.pyplot.show()
 
 #Extras!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 """below is an attempt to carry on with the animation until store reaches 10"""
+
+
+
+
 def gen_function(b = [0]):
-    store = 0
+    a = 0
     global carry_on #Not actually needed as we're not assigning, but clearer
-    while (store < 10) & (carry_on) :
-        yield store			# Returns control and waits next call.
-        store = store + 1
-
-
-
-
+    while (a < 10) & (carry_on) :
+        yield a			# Returns control and waits next call.
+        a = a + 1
 
 
