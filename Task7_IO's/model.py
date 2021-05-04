@@ -41,26 +41,15 @@ for j in range(num_of_iterations):
         
         
 
-matplotlib.pyplot.xlim(0, 300)
-matplotlib.pyplot.ylim(0, 300)
+matplotlib.pyplot.xlim(0, 100)
+matplotlib.pyplot.ylim(0, 100)
 matplotlib.pyplot.imshow(environment)
 for i in range(num_of_agents):
     matplotlib.pyplot.scatter(agents[i]._x, agents[i]._y)
 matplotlib.pyplot.show()
 #Extras!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-
-
-
-
-
-
-
-
-
-
+f = open("in.csv", "r")
+print(f.read())
 
 
 
